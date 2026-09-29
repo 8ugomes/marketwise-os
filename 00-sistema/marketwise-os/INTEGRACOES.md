@@ -6,6 +6,8 @@ O OS é funcional em modo de análise e runbook. Nenhum conector de conta de an�
 declarado como configurado neste repositório. Credenciais e IDs reais permanecem fora do git.
 
 Use `configurar-ambiente-marketwise` para inventariar e testar conexões sem coletar credenciais.
+Use `importar-contexto-marketwise` para recuperar inventários existentes; cada conexão importada
+permanece apenas `DECLARADA` até teste verificável no ambiente atual.
 
 ## Princípio
 

@@ -51,7 +51,11 @@ Confirme em até três bullets: papel reconhecido, como o OS vai ajudar e qual p
 executada. Depois, verifique `01-empresa/configuracao-marketwise-os.md`:
 
 - se estiver ausente ou parcial, ofereça continuar imediatamente com `configurar-ambiente-marketwise`;
-- explique que a segunda etapa é feita em blocos curtos e pode ser retomada;
+- explique que a segunda etapa pode ser feita por entrevista, leitura de projeto/arquivos ou
+  importação de um pacote extraído de outro chat;
+- se o usuário já tiver contexto em outro lugar, use `importar-contexto-marketwise` antes das
+  perguntas operacionais para evitar repetição;
+- explique que a configuração é feita em blocos curtos e pode ser retomada;
 - se o usuário adiar, registre apenas que a configuração operacional está pendente.
 
 Não force o usuário a começar uma tarefa ou completar toda a configuração na mesma sessão.

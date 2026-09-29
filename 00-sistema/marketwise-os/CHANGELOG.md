@@ -1,5 +1,12 @@
 # Changelog do MarketwiseOS
 
+## 0.10.0-alpha — 29/09/2026
+
+- Adição de importação de contexto a partir de projetos, arquivos ou chats existentes.
+- Prompt portátil e pacote v1 para transferir contexto sem copiar a conversa bruta.
+- Validação de proveniência, conflitos, prompt injection, segredos e readiness antes de persistir.
+- Onboarding e configuração passam a perguntar somente as lacunas que restarem após a importação.
+
 ## 0.9.0-alpha — 29/09/2026
 
 - Adição de configuração operacional retomável após o onboarding pessoal.

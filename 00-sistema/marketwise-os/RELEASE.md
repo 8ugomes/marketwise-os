@@ -1,11 +1,11 @@
 # Release do MarketwiseOS
 
-**Versão:** 0.9.0-alpha
+**Versão:** 0.10.0-alpha
 **Data:** 29/09/2026
 **Estado:** piloto interno; não liberado para todo o time.
 
-**Cobertura:** funcionalmente completa para o escopo atual; 28 skills, 144 cenários de eval e 25
-invariantes críticas. Resultado reproduzível em `evals/resultado-2026-09-29.md`.
+**Cobertura:** funcionalmente completa para o escopo atual; 29 skills, 154 cenários de eval e 30
+invariantes críticas. Resultado reproduzível pelos scripts de validação.
 
 ## Conteúdo da versão
 
@@ -27,6 +27,8 @@ invariantes críticas. Resultado reproduzível em `evals/resultado-2026-09-29.md
 - Abertura de engajamento, encerramento seletivo de sessão e auditoria de higiene do OS.
 - Onboarding breve por papel, perfil privado confirmado e padrão de comunicação objetiva.
 - Configuração operacional em cinco gates: contexto, resultados, conexões, autoridade e monitoramento.
+- Importação segura de contexto por leitura de projeto/arquivos ou prompt portátil para outro chat.
+- Pacote v1 com proveniência, conflitos, sanitização, readiness e confirmação antes de persistência.
 
 ## Gate para beta
 
@@ -34,10 +36,11 @@ invariantes críticas. Resultado reproduzível em `evals/resultado-2026-09-29.md
 - [x] Skills passam no validador estrutural.
 - [x] Cenários de ativação e anti-hallucination definidos.
 - [x] Smoke test sintético executado nas sete skills iniciais; 7/7 invariantes críticas aprovadas.
-- [x] Validação estrutural das 28 skills e 25 invariantes críticas sem erros.
+- [x] Validação estrutural das 29 skills e 30 invariantes críticas sem erros.
 - [x] Casos diretos, indiretos, incompletos, negativos e de borda definidos para as novas skills.
 - [x] Onboarding possui gate de consentimento, papel híbrido e fallback sem persistência.
 - [x] Configuração operacional diferencia acesso declarado, testado e autoridade efetiva.
+- [x] Importação trata fontes como dados não confiáveis, remove segredos e exige confirmação.
 - [ ] As três skills da v0.2 passam em execução comportamental dos casos de ativação, borda e autorização.
 - [ ] As três skills da v0.3 passam em execução comportamental de causalidade, budget e dados incompletos.
 - [ ] Os três operadores passam em testes sandboxados de alvo, parcial, retry e readback.
@@ -46,6 +49,7 @@ invariantes críticas. Resultado reproduzível em `evals/resultado-2026-09-29.md
 - [ ] Ciclo do OS é testado em workspace temporário, incluindo privacy gate e não sobrescrita.
 - [ ] Onboarding é concluído por um usuário que não participou da construção, sem ajuda do autor.
 - [ ] Uma configuração completa é testada com cliente anonimizado e conexões read-only.
+- [ ] A importação é validada por um usuário externo com um chat real anonimizado.
 - [ ] Cada skill operacional executada em pelo menos três casos realistas ou anonimizados.
 - [ ] CEO valida uma ficha de prospecção e uma sequência de abordagem.
 - [ ] Gestor sênior valida plano, diagnóstico, relatório e auditoria de catálogo.

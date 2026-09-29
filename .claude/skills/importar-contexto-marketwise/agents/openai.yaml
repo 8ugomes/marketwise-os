@@ -1,0 +1,7 @@
+interface:
+  display_name: "Importar contexto Marketwise"
+  short_description: "Recupera e valida contexto de projetos e chats"
+  default_prompt: "Use $importar-contexto-marketwise para recuperar, validar e importar o contexto deste projeto ou de um chat existente."
+
+policy:
+  allow_implicit_invocation: true

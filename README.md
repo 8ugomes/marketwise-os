@@ -35,11 +35,27 @@ Depois, abra a pasta:
 ## O que acontece no primeiro uso
 
 1. Perfil rápido: nome de uso, papel, resultado principal e alçada.
-2. Configuração retomável: cliente, KPIs, fontes, ferramentas, permissões e monitoramento.
-3. Readiness: cada gate fica verde, amarelo ou vermelho.
-4. Primeira rotina segura: o OS indica o que já pode analisar ou preparar.
+2. Recuperação opcional: contexto de projeto, arquivos ou outro chat.
+3. Configuração retomável: somente as lacunas de cliente, KPIs, fontes, permissões e monitoramento.
+4. Readiness: cada gate fica verde, amarelo ou vermelho.
+5. Primeira rotina segura: o OS indica o que já pode analisar ou preparar.
 
 As perguntas são curtas, uma por vez. O usuário pode responder `pular`, `não sei` ou retomar depois.
+
+## Recupere contexto existente
+
+Você não precisa refazer um discovery já realizado:
+
+- **Projeto ou arquivos acessíveis:** diga `recupere o contexto deste projeto para o cliente X`.
+- **Outro chat:** diga `gere o prompt para extrair o contexto de outro chat` e cole o prompt gerado
+  na conversa antiga.
+- **Resposta pronta:** copie o pacote devolvido e diga `importe este pacote de contexto`.
+
+O prompt completo também está em
+[`prompt-extracao-contexto.md`](.agents/skills/importar-contexto-marketwise/assets/prompt-extracao-contexto.md).
+Ele coleta negócio, decisão, KPIs, mídia, mensuração, ferramentas, governança, histórico, fontes e
+lacunas. O OS trata o retorno como dado não confiável, remove segredos, mostra conflitos e pede
+confirmação antes de salvar qualquer arquivo privado.
 
 ## Limites de autonomia
 
@@ -65,7 +81,7 @@ bash scripts/validar-instalacao.sh
 O roteiro e o resultado da simulação estão em
 [`00-sistema/marketwise-os/evals/resultado-distribuicao-2026-09-29.md`](00-sistema/marketwise-os/evals/resultado-distribuicao-2026-09-29.md).
 
-O pacote contém 28 skills, 144 cenários de avaliação e 25 invariantes críticas. Consulte
+O pacote contém 29 skills, 154 cenários de avaliação e 30 invariantes críticas. Consulte
 [`00-sistema/marketwise-os/RELEASE.md`](00-sistema/marketwise-os/RELEASE.md).
 
 ## Privacidade

@@ -18,6 +18,18 @@ Leia primeiro:
 - contexto/configuração do cliente selecionado, se existir;
 - `references/roteiro-adaptativo.md` e `references/niveis-de-autonomia.md`.
 
+## Entrada de contexto
+
+Antes da entrevista, ofereça sem aumentar o onboarding inicial:
+
+- responder às perguntas curtas;
+- recuperar contexto de projeto ou arquivos acessíveis;
+- gerar um prompt para extrair o contexto de outro chat.
+
+Para os dois últimos caminhos, use `importar-contexto-marketwise`. Depois da revisão e confirmação,
+preencha os cinco gates com o pacote e pergunte apenas pelas lacunas materiais. Não repita campos já
+extraídos e confirmados.
+
 ## Experiência da entrevista
 
 - Explique em uma frase: “Vou configurar contexto, resultados, conexões, autoridade e monitoramento.”
@@ -26,6 +38,7 @@ Leia primeiro:
 - Mostre progresso como `Gate 2/5 — Resultados`.
 - Não pergunte o que já estiver confirmado em arquivo ou resposta anterior.
 - Permita `pular`, `não sei`, anexar documento e retomar depois.
+- Permita colar um `PACOTE DE CONTEXTO MARKETWISE v1` e valide-o antes de usar.
 - Se o usuário parar, salve somente o que foi confirmado e marque a primeira lacuna.
 
 ## Cinco gates

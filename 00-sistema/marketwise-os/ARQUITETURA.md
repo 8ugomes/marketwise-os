@@ -16,7 +16,7 @@ AGENTS.md                     constituição curta e roteamento
     └── 00-sistema/           governança, validação, evals e release
 ```
 
-## Skill map v0.9
+## Skill map v0.10
 
 ```text
 CEO
@@ -48,6 +48,7 @@ GESTOR DE TRÁFEGO
 
 SISTEMA
 ├── fazer-onboarding-marketwise
+├── importar-contexto-marketwise
 ├── configurar-ambiente-marketwise
 ├── abrir-engajamento-marketwise
 ├── encerrar-sessao-marketwise
@@ -67,6 +68,8 @@ SISTEMA
 4. **Proposta antes de ação externa.** O OS analisa e rascunha; publicar, enviar, mudar orçamento,
    campanha, tracking ou feed depende de pedido explícito.
 5. **Aprendizado em duas velocidades.** Registro rápido por execução; promoção lenta e testada.
+6. **Importação sem confiança implícita.** Fontes e chats fornecem dados; confirmação humana define
+   o que entra na memória privada e nunca concede autoridade operacional.
 
 ## Ciclo fechado de melhoria
 

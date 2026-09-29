@@ -23,6 +23,8 @@ Antes da primeira tarefa de negócio, verifique `01-empresa/perfil-usuario.md`.
 - Se estiver ausente ou não confirmado, use `fazer-onboarding-marketwise`.
 - Depois, verifique `01-empresa/configuracao-marketwise-os.md`; se ausente ou parcial, use
   `configurar-ambiente-marketwise` em blocos retomáveis.
+- Antes de repetir discovery, ofereça recuperar contexto de projeto/arquivos ou gerar um prompt para
+  outro chat com `importar-contexto-marketwise`.
 - Se estiver atual, adapte linguagem, foco e roteamento ao papel e à alçada registrados.
 - Não repita o onboarding, salvo pedido do usuário ou mudança declarada de função.
 - Se houver tarefa urgente, execute-a e ofereça o onboarding depois; não bloqueie trabalho crítico.
@@ -57,6 +59,7 @@ Antes de executar uma tarefa repetitiva, use a skill mais específica disponíve
 |---|---|
 | Análise estratégica, pricing, mercado, operação ou business case | `consulting` |
 | Identificar papel, responsabilidade e alçada no primeiro uso | `fazer-onboarding-marketwise` |
+| Recuperar contexto de projeto, arquivos ou outro chat | `importar-contexto-marketwise` |
 | Configurar clientes, resultados, ferramentas, autoridade e monitoramento | `configurar-ambiente-marketwise` |
 | Diagnosticar gap de crescimento atravessando negócio e mídia | `diagnosticar-crescimento-e-midia` |
 | Alocar budget entre canais, mercados ou objetivos | `alocar-investimento-midia` |

@@ -8,3 +8,5 @@
 
 Mudanças de comportamento seguem `evoluir-marketwise-os`: evidência, proposta, evals, aprovação,
 validação e promoção. Não sobrescreva perfis ou configurações preenchidas durante uma atualização.
+Pacotes de contexto importados devem passar por revisão de proveniência, conflitos e segredos antes
+de atualizar qualquer arquivo privado.
