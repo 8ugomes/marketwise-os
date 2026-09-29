@@ -24,6 +24,9 @@ claude_count=$(find .claude/skills -mindepth 1 -maxdepth 1 -type d | wc -l | tr 
 
 diff -qr .agents/skills .claude/skills >/dev/null 2>&1 || fail 'cópias de skills divergentes'
 
+grep -Fq 'rg --files --hidden --no-ignore' AGENTS.md \
+  || fail 'regra de descoberta de contexto privado ausente'
+
 tracked_private=$(git ls-files '01-empresa/**' '02-engajamentos/**' '04-base-conhecimento/**' 2>/dev/null \
   | grep -vE '^01-empresa/_modelos/|^02-engajamentos/_modelo-engajamento/|^04-base-conhecimento/_modelos/' || true)
 [ -z "$tracked_private" ] || fail "conteúdo privado versionado: $tracked_private"

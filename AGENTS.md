@@ -44,6 +44,11 @@ Antes de responder uma pergunta de negócio:
 Os arquivos de `01-empresa/`, `02-engajamentos/` e `04-base-conhecimento/` contêm contexto
 privado e não são versionados. Os modelos vazios ficam nas pastas `_modelos/`.
 
+Essas áreas são ignoradas pelo Git, portanto buscas padrão podem ocultá-las. Nunca conclua que o
+contexto privado está ausente apenas por `git status`, `git ls-files` ou `rg --files`. Verifique os
+caminhos canônicos diretamente ou descubra arquivos com `rg --files --hidden --no-ignore` e filtre
+o escopo necessário antes de responder. Não exponha conteúdo privado bruto na saída.
+
 ## Roteamento por jornada
 
 Antes de executar uma tarefa repetitiva, use a skill mais específica disponível:

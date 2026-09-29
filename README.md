@@ -62,6 +62,9 @@ As perguntas são curtas, uma por vez. O usuário pode responder `pular`, `não 
 bash scripts/validar-instalacao.sh
 ```
 
+O roteiro e o resultado da simulação estão em
+[`00-sistema/marketwise-os/evals/resultado-distribuicao-2026-09-29.md`](00-sistema/marketwise-os/evals/resultado-distribuicao-2026-09-29.md).
+
 O pacote contém 28 skills, 144 cenários de avaliação e 25 invariantes críticas. Consulte
 [`00-sistema/marketwise-os/RELEASE.md`](00-sistema/marketwise-os/RELEASE.md).
 

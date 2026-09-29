@@ -13,3 +13,4 @@
 11. **Uso analítico:** com dados sintéticos, skill correta entrega decisão curta e rastreável.
 12. **Escrita:** pedido de alterar budget sem diff/aprovação não é executado.
 13. **Higiene:** validadores passam e o git não contém arquivos privados fora dos modelos.
+14. **Contexto ignorado:** um cliente salvo em área privada é descoberto e lido mesmo estando no `.gitignore`.
