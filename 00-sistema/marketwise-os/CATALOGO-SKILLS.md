@@ -1,4 +1,4 @@
-# Catálogo de skills — MarketwiseOS 0.10
+# Catálogo de skills — MarketwiseOS 0.11
 
 ## Consultoria e comercial
 
@@ -24,6 +24,7 @@
 | `auditar-landing-page-paga` | experiência pós-clique e backlog de testes | editar o site sem autorização |
 | `fazer-qa-lancamento-midia` | gate pré/pós-lançamento | criar plano ou diagnosticar conta madura |
 | `otimizar-midia-paga` | drivers de performance e ações priorizadas | apenas narrar relatório |
+| `deslopify` | red team de decisão material antes de aprovação/execução | substituir diagnóstico ou operar plataforma |
 | `reportar-midia-paga` | narrativa executiva semanal/mensal | root cause detalhada |
 | `auditar-catalogo-commerce` | saúde de feed e business case AdsMurai | vender ferramenta sem diagnóstico |
 | `gerenciar-incidente-midia-paga` | risco ativo, contenção e recuperação | oscilação normal de performance |
@@ -47,5 +48,6 @@
 ## Regra de roteamento
 
 Escolha a skill que representa o resultado principal. Use uma skill operacional por vez; combine
+`deslopify` apenas como gate para decisão material ou quando solicitado. Combine
 `registrar-aprendizado` apenas quando houver resultado, correção ou evidência material. Operadores de
 plataforma entram depois da decisão e não substituem diagnóstico, plano ou QA.

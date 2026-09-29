@@ -44,6 +44,13 @@ check .agents/skills/importar-contexto-marketwise/SKILL.md 'Não solicitar, salv
 check .agents/skills/importar-contexto-marketwise/SKILL.md 'Nenhuma persistência sem confirmação explícita' 'importação exige confirmação'
 check .agents/skills/importar-contexto-marketwise/SKILL.md 'FATO.*INFERÊNCIA.*A_CONFIRMAR|Classifique cada item' 'proveniência e confiança'
 check .agents/skills/importar-contexto-marketwise/SKILL.md 'DECLARADA.*TESTADA_LEITURA.*TESTADA_ESCRITA' 'status de conexão não presumido'
+check .agents/skills/deslopify/SKILL.md 'Recomendação não é autorização' 'recomendação separada de autorização'
+check .agents/skills/deslopify/SKILL.md 'aprovação explícita.*diff exato|diff exato.*aprovação explícita' 'budget exige aprovação do diff'
+check .agents/skills/deslopify/SKILL.md 'ROAS/CPA médio.*não.*retorno.*próxima unidade|Sem evidência marginal' 'média não é retorno marginal'
+check .agents/skills/deslopify/SKILL.md 'Não some receitas de plataformas|não some receitas de plataformas' 'atribuição não aditiva'
+check .agents/skills/deslopify/SKILL.md 'uma variável principal' 'mudança aprendível'
+check .agents/skills/deslopify/SKILL.md 'Sem conector/readback, não foi executado|Sem conector.*não executado' 'execução não simulada'
+check .agents/skills/deslopify/SKILL.md 'nunca executa|não executa' 'deslopify não opera plataforma'
 check .agents/skills/registrar-aprendizado/SKILL.md 'sem alterar|não edita' 'aprendizado não autoexecutável'
 check .agents/skills/evoluir-marketwise-os/SKILL.md 'aprovação humana|revisão humana' 'promoção humana'
 

@@ -75,6 +75,7 @@ Antes de executar uma tarefa repetitiva, use a skill mais específica disponíve
 | Auditar eventos, tracking, consentimento e reconciliação | `auditar-mensuracao-commerce` |
 | Monitorar ritmo de investimento e risco de fechamento | `monitorar-pacing-midia` |
 | Planejar conceitos, briefs e testes criativos | `planejar-criativos-performance` |
+| Revisar criticamente decisão material de mídia antes da ação | `deslopify` |
 | Auditar experiência pós-clique e priorizar testes de landing page | `auditar-landing-page-paga` |
 | Fazer QA antes ou após lançamento de campanha | `fazer-qa-lancamento-midia` |
 | Conter e coordenar incidente ativo de mídia | `gerenciar-incidente-midia-paga` |
@@ -112,6 +113,10 @@ material, `registrar-aprendizado` são suficientes.
 - Favoreça testes com uma variável principal; não atribua causalidade a comparações observacionais.
 - Ações em contas de anúncios, orçamento, tracking ou catálogo exigem pedido explícito e revisão
   do profissional responsável. O padrão é analisar e propor.
+- Recomendação não é autorização. Nenhum aumento, corte ou realocação de budget deve ser executado
+  sem estado atual, diff exato e aprovação explícita do usuário responsável no turno atual.
+- Antes de uma decisão material de mídia, use `deslopify` quando houver risco de gasto, causalidade,
+  atribuição, múltiplas mudanças ou alçada; o gate revisa, mas nunca executa.
 - Quando uma execução for aprovada, use o operador da plataforma: leia o estado, mostre o diff
   exato, confirme conta/IDs, execute a menor mudança e faça readback. Sem conector, marque
   claramente `não executado`; nunca simule sucesso.

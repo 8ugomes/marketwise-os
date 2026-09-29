@@ -19,8 +19,8 @@ bash 00-sistema/marketwise-os/scripts/testar-invariantes.sh || errors=$((errors 
 
 agent_count=$(find .agents/skills -mindepth 1 -maxdepth 1 -type d | wc -l | tr -d ' ')
 claude_count=$(find .claude/skills -mindepth 1 -maxdepth 1 -type d | wc -l | tr -d ' ')
-[ "$agent_count" = "29" ] || fail "esperadas 29 skills em .agents; encontradas $agent_count"
-[ "$claude_count" = "29" ] || fail "esperadas 29 skills em .claude; encontradas $claude_count"
+[ "$agent_count" = "30" ] || fail "esperadas 30 skills em .agents; encontradas $agent_count"
+[ "$claude_count" = "30" ] || fail "esperadas 30 skills em .claude; encontradas $claude_count"
 
 diff -qr .agents/skills .claude/skills >/dev/null 2>&1 || fail 'cópias de skills divergentes'
 
@@ -32,7 +32,7 @@ tracked_private=$(git ls-files '01-empresa/**' '02-engajamentos/**' '04-base-con
 [ -z "$tracked_private" ] || fail "conteúdo privado versionado: $tracked_private"
 
 if [ "$errors" -eq 0 ]; then
-  printf 'Instalação válida: 29 skills, compatibilidade e privacidade aprovadas.\n'
+  printf 'Instalação válida: 30 skills, compatibilidade e privacidade aprovadas.\n'
   exit 0
 fi
 

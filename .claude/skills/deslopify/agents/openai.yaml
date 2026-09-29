@@ -1,0 +1,7 @@
+interface:
+  display_name: "Deslopify Mídia Paga"
+  short_description: "Endurece decisões de mídia antes da ação"
+  default_prompt: "Use $deslopify para revisar criticamente esta decisão de mídia antes de recomendar ou executar qualquer mudança."
+
+policy:
+  allow_implicit_invocation: true

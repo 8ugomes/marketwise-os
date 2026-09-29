@@ -14,6 +14,9 @@ permanece apenas `DECLARADA` até teste verificável no ambiente atual.
 Integrações são adaptadores dos workflows existentes. Elas não podem criar um caminho alternativo
 que ignore contexto, autorização, diff, readback, privacidade ou registro de decisão.
 
+Para mudanças materiais, `deslopify` revisa a robustez da decisão e a alçada antes do handoff. Esse
+gate não substitui preflight, aprovação atual nem readback do operador.
+
 ## Interface mínima de um adaptador
 
 | Capacidade | Requisito |

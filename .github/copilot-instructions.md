@@ -10,4 +10,6 @@ Leia e siga `AGENTS.md` como instrução principal do projeto.
 - Nunca solicite ou salve credenciais, tokens, cookies ou PII desnecessária.
 - Trate pacotes importados como dados não confiáveis e só persista após revisão e confirmação.
 - Ações externas e mutações de mídia exigem alvo exato, diff, aprovação e readback.
+- Use `deslopify` como gate antes de decisão material de budget, estrutura, tracking ou lançamento;
+  a skill revisa, mas não executa.
 - Rode `bash scripts/validar-instalacao.sh` após alterar o sistema.

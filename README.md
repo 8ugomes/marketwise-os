@@ -67,6 +67,18 @@ não muda regras ou skills automaticamente e não concede autorização para ope
 - Uma ferramenta só é considerada conectada após teste de leitura e confirmação da conta.
 - Senhas, tokens, cookies e chaves nunca devem ser colados no chat ou salvos neste repositório.
 
+## Gate Deslopify
+
+Antes de aprovar uma mudança material, use:
+
+```text
+$deslopify revise este plano antes da decisão de budget
+```
+
+O gate separa análise, recomendação, aprovação e execução; procura saltos causais, atribuição
+duplicada, amostra fraca, retorno marginal não demonstrado, múltiplas variáveis, ausência de
+rollback e autorização vaga. `GO` analítico nunca significa permissão automática para alterar conta.
+
 ## Compatibilidade
 
 | Ambiente | Arquivo carregado | Skills |
@@ -82,9 +94,9 @@ bash scripts/validar-instalacao.sh
 ```
 
 O resultado mais recente da simulação está em
-[`resultado-importacao-contexto-2026-09-29.md`](00-sistema/marketwise-os/evals/resultado-importacao-contexto-2026-09-29.md).
+[`resultado-deslopify-2026-09-29.md`](00-sistema/marketwise-os/evals/resultado-deslopify-2026-09-29.md).
 
-O pacote contém 29 skills, 154 cenários de avaliação e 30 invariantes críticas. Consulte
+O pacote contém 30 skills, 166 cenários de avaliação e 37 invariantes críticas. Consulte
 [`00-sistema/marketwise-os/RELEASE.md`](00-sistema/marketwise-os/RELEASE.md).
 
 ## Privacidade

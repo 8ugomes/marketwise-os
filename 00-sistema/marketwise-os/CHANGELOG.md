@@ -1,5 +1,13 @@
 # Changelog do MarketwiseOS
 
+## 0.11.0-alpha — 29/09/2026
+
+- Adição da skill `deslopify` como red team de decisões materiais de mídia paga.
+- Separação explícita entre análise, recomendação, aprovação, execução e readback.
+- Guardrails de budget: sem percentual universal, escala sem retorno marginal ou mutação sem diff aprovado.
+- Gate para causalidade, atribuição, amostra, experimento, compliance, rollback e falsa execução.
+- Doze casos de avaliação e sete invariantes novas para regressão.
+
 ## 0.10.0-alpha — 29/09/2026
 
 - Adição de importação de contexto a partir de projetos, arquivos ou chats existentes.

@@ -16,7 +16,7 @@ AGENTS.md                     constituição curta e roteamento
     └── 00-sistema/           governança, validação, evals e release
 ```
 
-## Skill map v0.10
+## Skill map v0.11
 
 ```text
 CEO
@@ -40,6 +40,7 @@ GESTOR DE TRÁFEGO
 ├── fazer-qa-lancamento-midia
 ├── gerenciar-incidente-midia-paga
 ├── otimizar-midia-paga
+├── deslopify
 ├── reportar-midia-paga
 ├── auditar-catalogo-commerce
 ├── operar-meta-ads
@@ -70,6 +71,8 @@ SISTEMA
 5. **Aprendizado em duas velocidades.** Registro rápido por execução; promoção lenta e testada.
 6. **Importação sem confiança implícita.** Fontes e chats fornecem dados; confirmação humana define
    o que entra na memória privada e nunca concede autoridade operacional.
+7. **Gate separado da operação.** `deslopify` desafia a decisão e a autorização; somente o operador
+   da plataforma pode executar um diff aprovado e confirmar estado por readback.
 
 ## Ciclo fechado de melhoria
 

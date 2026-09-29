@@ -8,7 +8,7 @@ warnings=0
 fail() { printf 'ERRO: %s\n' "$1"; errors=$((errors + 1)); }
 warn() { printf 'AVISO: %s\n' "$1"; warnings=$((warnings + 1)); }
 
-required_skills="consulting fazer-onboarding-marketwise importar-contexto-marketwise configurar-ambiente-marketwise prospectar-varejo-b2b qualificar-oportunidade-b2b preparar-proposta-marketwise conduzir-qbr-growth diagnosticar-crescimento-e-midia alocar-investimento-midia desenhar-incrementalidade-midia planejar-midia-paga otimizar-midia-paga reportar-midia-paga auditar-catalogo-commerce auditar-mensuracao-commerce monitorar-pacing-midia planejar-criativos-performance auditar-landing-page-paga fazer-qa-lancamento-midia gerenciar-incidente-midia-paga operar-meta-ads operar-google-ads operar-tiktok-ads abrir-engajamento-marketwise encerrar-sessao-marketwise auditar-higiene-marketwise-os registrar-aprendizado evoluir-marketwise-os"
+required_skills="consulting fazer-onboarding-marketwise importar-contexto-marketwise configurar-ambiente-marketwise prospectar-varejo-b2b qualificar-oportunidade-b2b preparar-proposta-marketwise conduzir-qbr-growth diagnosticar-crescimento-e-midia alocar-investimento-midia desenhar-incrementalidade-midia planejar-midia-paga otimizar-midia-paga deslopify reportar-midia-paga auditar-catalogo-commerce auditar-mensuracao-commerce monitorar-pacing-midia planejar-criativos-performance auditar-landing-page-paga fazer-qa-lancamento-midia gerenciar-incidente-midia-paga operar-meta-ads operar-google-ads operar-tiktok-ads abrir-engajamento-marketwise encerrar-sessao-marketwise auditar-higiene-marketwise-os registrar-aprendizado evoluir-marketwise-os"
 
 for skill in $required_skills; do
   file=".agents/skills/$skill/SKILL.md"
