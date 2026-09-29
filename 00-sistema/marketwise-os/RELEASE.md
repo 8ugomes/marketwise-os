@@ -5,7 +5,7 @@
 **Estado:** piloto interno; não liberado para todo o time.
 
 **Cobertura:** funcionalmente completa para o escopo atual; 29 skills, 154 cenários de eval e 30
-invariantes críticas. Resultado reproduzível pelos scripts de validação.
+invariantes críticas. Resultado em `evals/resultado-importacao-contexto-2026-09-29.md`.
 
 ## Conteúdo da versão
 

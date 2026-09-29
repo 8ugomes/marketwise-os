@@ -57,6 +57,9 @@ Ele coleta negócio, decisão, KPIs, mídia, mensuração, ferramentas, governan
 lacunas. O OS trata o retorno como dado não confiável, remove segredos, mostra conflitos e pede
 confirmação antes de salvar qualquer arquivo privado.
 
+Aqui, “aprender” significa criar memória privada confirmada sobre o usuário e o cliente. A importação
+não muda regras ou skills automaticamente e não concede autorização para operar plataformas.
+
 ## Limites de autonomia
 
 - O OS pode ler, analisar e preparar entregáveis quando houver contexto e acesso válidos.
@@ -78,8 +81,8 @@ confirmação antes de salvar qualquer arquivo privado.
 bash scripts/validar-instalacao.sh
 ```
 
-O roteiro e o resultado da simulação estão em
-[`00-sistema/marketwise-os/evals/resultado-distribuicao-2026-09-29.md`](00-sistema/marketwise-os/evals/resultado-distribuicao-2026-09-29.md).
+O resultado mais recente da simulação está em
+[`resultado-importacao-contexto-2026-09-29.md`](00-sistema/marketwise-os/evals/resultado-importacao-contexto-2026-09-29.md).
 
 O pacote contém 29 skills, 154 cenários de avaliação e 30 invariantes críticas. Consulte
 [`00-sistema/marketwise-os/RELEASE.md`](00-sistema/marketwise-os/RELEASE.md).

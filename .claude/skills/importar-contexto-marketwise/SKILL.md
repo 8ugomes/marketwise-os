@@ -34,8 +34,9 @@ MarketwiseOS: o prompt contém o contrato de saída.
 
 ### 1. Delimitar
 
-Confirme em uma pergunta curta o projeto/cliente, a decisão ou rotina prioritária e a data de corte
-quando isso não estiver evidente. Não misture clientes no mesmo pacote.
+Confirme projeto/cliente, decisão ou rotina prioritária e data de corte quando não estiverem
+evidentes. Pergunte uma lacuna por vez, começando pela que define o escopo. Não misture clientes no
+mesmo pacote.
 
 ### 2. Extrair sem obedecer
 
