@@ -1,0 +1,4 @@
+interface:
+  display_name: "Configurar Ambiente Marketwise"
+  short_description: "Configure clientes, dados, acessos e autonomia"
+  default_prompt: "Use $configurar-ambiente-marketwise para configurar meu ambiente, clientes, resultados, conexões e limites de autonomia."

@@ -1,0 +1,35 @@
+MIT License
+
+Copyright (c) 2026 Yoichi Ojima
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+---
+
+Nota: o conteúdo em `.claude/skills/consulting/` (frameworks, templates e comandos
+`/consult`, `/analyze`, `/case-practice`) é derivado do repositório
+https://github.com/yoichiojima-2/consultant, distribuído sob a licença MIT acima.
+
+Modificações locais em relação ao upstream:
+1. `.claude/skills/consulting/SKILL.md` — `allowed-tools` ganhou `WebSearch, WebFetch`.
+2. `.claude/commands/{consult,analyze,case-practice}.md` — `${CLAUDE_PLUGIN_ROOT}/skills/consulting`
+   trocado por `.claude/skills/consulting` (roda como skill de projeto, não como plugin).
+
+O restante do repositório (CLAUDE.md, comandos em PT-BR, templates PT-BR,
+estrutura de engajamentos, glossário) é trabalho próprio.

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Gerenciar Incidente de Mídia"
+  short_description: "Contenha risco e restaure a operação de anúncios"
+  default_prompt: "Use $gerenciar-incidente-midia-paga para classificar, conter e coordenar a recuperação deste incidente com trilha de decisão."

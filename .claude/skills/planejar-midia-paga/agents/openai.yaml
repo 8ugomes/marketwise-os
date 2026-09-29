@@ -1,0 +1,4 @@
+interface:
+  display_name: "Planejar mídia paga"
+  short_description: "Converta briefings em planos de mídia mensuráveis"
+  default_prompt: "Use $planejar-midia-paga para transformar este briefing em plano de canais, budget, mensuração e testes."

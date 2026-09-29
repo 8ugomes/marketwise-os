@@ -1,0 +1,4 @@
+interface:
+  display_name: "Alocar Investimento de Mídia"
+  short_description: "Distribua budget por retorno marginal e risco"
+  default_prompt: "Use $alocar-investimento-midia para criar cenários de realocação com retorno marginal, constraints e guardrails."

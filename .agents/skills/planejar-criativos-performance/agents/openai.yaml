@@ -1,0 +1,4 @@
+interface:
+  display_name: "Planejar Criativos de Performance"
+  short_description: "Crie hipóteses, briefs e testes criativos"
+  default_prompt: "Use $planejar-criativos-performance para estruturar conceitos, briefs e uma learning agenda criativa ligada ao KPI de negócio."

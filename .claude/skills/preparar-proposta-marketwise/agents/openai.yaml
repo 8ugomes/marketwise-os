@@ -1,0 +1,4 @@
+interface:
+  display_name: "Preparar Proposta Marketwise"
+  short_description: "Converta discovery em proposta clara e responsável"
+  default_prompt: "Use $preparar-proposta-marketwise para criar uma proposta consultiva baseada em evidência, escopo e premissas aprováveis."

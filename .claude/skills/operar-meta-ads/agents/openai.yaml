@@ -1,0 +1,4 @@
+interface:
+  display_name: "Operar Meta Ads"
+  short_description: "Execute mudanças no Meta com aprovação e readback"
+  default_prompt: "Use $operar-meta-ads para preparar ou executar uma mudança supervisionada no Meta Ads com diff, aprovação e verificação."

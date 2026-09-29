@@ -1,0 +1,4 @@
+interface:
+  display_name: "Auditar catálogo de commerce"
+  short_description: "Priorize correções e avalie o fit de AdsMurai"
+  default_prompt: "Use $auditar-catalogo-commerce para diagnosticar o catálogo, priorizar correções e avaliar o fit de AdsMurai."

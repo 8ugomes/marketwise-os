@@ -1,0 +1,4 @@
+interface:
+  display_name: "Auditar Mensuração Commerce"
+  short_description: "Valide tracking e confiança dos sinais de mídia"
+  default_prompt: "Use $auditar-mensuracao-commerce para auditar a mensuração, emitir um gate de confiança e priorizar correções sem alterar contas."

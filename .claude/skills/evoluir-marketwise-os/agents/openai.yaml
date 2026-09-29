@@ -1,0 +1,4 @@
+interface:
+  display_name: "Evoluir MarketwiseOS"
+  short_description: "Promova melhorias testadas e aprovadas no OS"
+  default_prompt: "Use $evoluir-marketwise-os para transformar evidências recorrentes em uma melhoria testada, aprovada e versionada."

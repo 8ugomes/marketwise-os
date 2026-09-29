@@ -1,0 +1,4 @@
+interface:
+  display_name: "Fazer QA de Lançamento"
+  short_description: "Valide campanha, destino e tracking antes do go-live"
+  default_prompt: "Use $fazer-qa-lancamento-midia para emitir um gate GO/NO-GO rastreável antes ou após o lançamento."

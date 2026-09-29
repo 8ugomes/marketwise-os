@@ -1,0 +1,4 @@
+interface:
+  display_name: "Registrar aprendizado"
+  short_description: "Capture feedback e resultados sem alterar skills"
+  default_prompt: "Use $registrar-aprendizado para registrar esta execução material, sua evidência e a hipótese de melhoria."

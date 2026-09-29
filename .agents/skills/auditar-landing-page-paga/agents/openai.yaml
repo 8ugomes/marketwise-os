@@ -1,0 +1,4 @@
+interface:
+  display_name: "Auditar Landing Page Paga"
+  short_description: "Encontre fricções pós-clique e priorize testes"
+  default_prompt: "Use $auditar-landing-page-paga para avaliar a jornada pós-clique e priorizar melhorias testáveis com base em evidência."

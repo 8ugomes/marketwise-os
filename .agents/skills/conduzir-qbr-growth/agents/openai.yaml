@@ -1,0 +1,4 @@
+interface:
+  display_name: "Conduzir QBR de Growth"
+  short_description: "Converta resultados em decisões executivas"
+  default_prompt: "Use $conduzir-qbr-growth para estruturar uma revisão executiva com resultados, aprendizados, decisões e roadmap."

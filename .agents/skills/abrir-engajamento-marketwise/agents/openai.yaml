@@ -1,0 +1,4 @@
+interface:
+  display_name: "Abrir Engajamento Marketwise"
+  short_description: "Crie contexto seguro e rastreável para um projeto"
+  default_prompt: "Use $abrir-engajamento-marketwise para iniciar este projeto com contexto, SCQ, hipótese, dados e próximos passos."

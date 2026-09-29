@@ -1,0 +1,4 @@
+interface:
+  display_name: "Operar Google Ads"
+  short_description: "Consulte e altere Google Ads com controle seguro"
+  default_prompt: "Use $operar-google-ads para consultar ou executar uma mudança supervisionada no Google Ads com diff e readback."

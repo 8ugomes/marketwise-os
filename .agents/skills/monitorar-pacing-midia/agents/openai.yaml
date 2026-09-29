@@ -1,0 +1,4 @@
+interface:
+  display_name: "Monitorar Pacing de Mídia"
+  short_description: "Projete fechamento e controle riscos de verba"
+  default_prompt: "Use $monitorar-pacing-midia para calcular o ritmo de investimento, projetar o fechamento e propor correções com guardrails."

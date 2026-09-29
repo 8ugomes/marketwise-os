@@ -1,0 +1,4 @@
+interface:
+  display_name: "Auditar Higiene do MarketwiseOS"
+  short_description: "Encontre riscos de estrutura, privacidade e acúmulo"
+  default_prompt: "Use $auditar-higiene-marketwise-os para revisar a saúde do OS e priorizar correções reversíveis sem apagar nada."

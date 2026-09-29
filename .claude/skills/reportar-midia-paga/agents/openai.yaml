@@ -1,0 +1,4 @@
+interface:
+  display_name: "Reportar mídia paga"
+  short_description: "Transforme dados em narrativa e decisões executivas"
+  default_prompt: "Use $reportar-midia-paga para converter estes dados em relatório executivo com drivers, decisões e próximos passos."

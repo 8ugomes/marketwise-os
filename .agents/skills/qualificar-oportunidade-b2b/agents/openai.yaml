@@ -1,0 +1,4 @@
+interface:
+  display_name: "Qualificar Oportunidade B2B"
+  short_description: "Estruture discovery, fit e próximo passo comercial"
+  default_prompt: "Use $qualificar-oportunidade-b2b para avaliar esta oportunidade, separar evidência de hipótese e recomendar o próximo passo."

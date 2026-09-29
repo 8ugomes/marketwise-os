@@ -1,0 +1,4 @@
+interface:
+  display_name: "Consultoria Estratégica"
+  short_description: "Estruture problemas e decisões estratégicas"
+  default_prompt: "Use $consulting para estruturar este problema de negócio e recomendar uma decisão baseada em evidências."

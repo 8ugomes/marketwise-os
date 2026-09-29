@@ -1,0 +1,4 @@
+interface:
+  display_name: "Diagnosticar Crescimento e Mídia"
+  short_description: "Conecte crescimento, economia e mídia paga"
+  default_prompt: "Use $diagnosticar-crescimento-e-midia para estruturar o gap de crescimento, priorizar hipóteses e definir decisões testáveis."

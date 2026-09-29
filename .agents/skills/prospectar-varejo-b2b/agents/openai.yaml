@@ -1,0 +1,4 @@
+interface:
+  display_name: "Prospectar varejo B2B"
+  short_description: "Qualifique contas e decision makers com evidências"
+  default_prompt: "Use $prospectar-varejo-b2b para qualificar esta conta, mapear o buying committee e preparar uma abordagem."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Desenhar Incrementalidade de Mídia"
+  short_description: "Planeje testes causais de lift e holdout"
+  default_prompt: "Use $desenhar-incrementalidade-midia para criar um protocolo causal viável, com potência, riscos e regra de decisão."

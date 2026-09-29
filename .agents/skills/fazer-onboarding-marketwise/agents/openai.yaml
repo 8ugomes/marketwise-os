@@ -1,0 +1,4 @@
+interface:
+  display_name: "Fazer Onboarding Marketwise"
+  short_description: "Identifique o papel e personalize o uso do OS"
+  default_prompt: "Use $fazer-onboarding-marketwise para identificar meu papel, responsabilidades e alçada em uma conversa breve."

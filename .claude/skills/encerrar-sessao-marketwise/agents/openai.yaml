@@ -1,0 +1,4 @@
+interface:
+  display_name: "Encerrar Sessão Marketwise"
+  short_description: "Registre progresso e deixe o trabalho retomável"
+  default_prompt: "Use $encerrar-sessao-marketwise para registrar o resultado, as decisões, os aprendizados elegíveis e o próximo passo desta etapa."

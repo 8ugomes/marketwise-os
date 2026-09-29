@@ -1,0 +1,4 @@
+interface:
+  display_name: "Otimizar mídia paga"
+  short_description: "Diagnostique performance e priorize ações testáveis"
+  default_prompt: "Use $otimizar-midia-paga para diagnosticar os drivers de performance e priorizar ações ou experimentos."

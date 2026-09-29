@@ -1,0 +1,4 @@
+interface:
+  display_name: "Operar TikTok Ads"
+  short_description: "Execute mudanças no TikTok com segurança"
+  default_prompt: "Use $operar-tiktok-ads para preparar ou executar uma mudança supervisionada no TikTok Ads com aprovação e readback."
